@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
-import BtnGitHub from "../components/btnGitHub/btnGitHub";
+import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import { list } from "../helpers/Projects-list";
 
 const Project = () => {
