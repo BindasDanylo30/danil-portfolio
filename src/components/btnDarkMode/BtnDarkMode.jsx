@@ -3,7 +3,7 @@ import useLocalStorage from "../../utils/useLocalStorage.jsx";
 import "./btnDarkMode.scss";
 import sun from "./sun.svg";
 import moon from "./moon.svg";
-import DetectDarkMode from "../../utils/DetectDarkMode.jsx";
+import DetectDarkMode from "../../utils/detectDarkMode.jsx";
 
 const btnDarkMode = () => {
   //   const [darkMode, setDarkMode] = useState("light");
