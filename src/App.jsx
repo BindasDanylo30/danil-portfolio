@@ -6,12 +6,14 @@ import Projects from "./pages/Projects.jsx";
 import Contacts from "./pages/Contacts.jsx";
 import Project from "./pages/Project.jsx";
 import ScrollToTop from "./utils/scrollToTop.js";
+import Snowfall from "react-snowfall";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Router basename="/danil-portfolio">
+        <Snowfall flakes={10} />
         <Navbar />
         <ScrollToTop />
         <Routes>
